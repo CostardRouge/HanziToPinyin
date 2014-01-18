@@ -1,6 +1,6 @@
 Hanzi to Pinyin - Alpha
 ====
-> A tool to download images from Pinterest boards.
+> A tool to get pinyin from chinese chars.
 
 ![Example](Assets/HanziToPinyinSS.PNG "HanziToPinyinSS screenshoot")
 
