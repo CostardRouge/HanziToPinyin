@@ -7,7 +7,5 @@ Hanzi to Pinyin - Alpha
 ### Author
 > Steeve Pommier
 
-* [Github](https://github.com/CostardRouge)
+* [Website](http://costardrouge.eu)
 * [Twitter](https://twitter.com/LeBlousonRouge)
-* [Dev Tumblr](http://lastrevision.tumblr.com)
-* [Main Tumblr](http://costardrouge.tumblr.com)
