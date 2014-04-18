@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BinaryAnalysis.UnidecodeSharp;
 
 namespace HanziToPinyin
 {
@@ -32,6 +33,9 @@ namespace HanziToPinyin
             this.AddLine("北  京   交    通  大 学", "Bei jing jiao tong da xue");
             this.AddLine("北  京   交    通  大 学", "Bei jing jiao tong da xue");
             this.AddLine("北  京   交    通  大 学", "Bei jing jiao tong da xue");
+
+
+            MessageBox.Show("北京".Unidecode());
         }
 
         public void AddLine(string txt = null, string trans = null)
@@ -40,7 +44,7 @@ namespace HanziToPinyin
             Line    line;
 
             idx = this.lines.Count + 1;
-            line = new Line(idx, txt, trans);
+            line = new Line(idx, txt, txt.Unidecode());
 
             this.StackedLines.Children.Add(line.text);
             this.StackedLines.Children.Add(line.translation);
